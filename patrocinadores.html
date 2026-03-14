@@ -93,6 +93,7 @@ nav.solid{background:rgba(10,22,40,0.97);box-shadow:0 2px 30px rgba(0,200,224,0.
 /* SECTIONS */
 section{padding:100px 0}
 .container{max-width:1200px;margin:0 auto;padding:0 40px}
+.container-sm{max-width:860px;margin:0 auto;padding:0 40px}
 .section-tag{font-size:10px;letter-spacing:5px;color:var(--agua);text-transform:uppercase;font-weight:600;margin-bottom:12px}
 .section-title{font-family:'Oswald',sans-serif;font-size:clamp(36px,5vw,64px);font-weight:700;text-transform:uppercase;line-height:1;margin-bottom:24px}
 .section-title span{color:var(--agua)}
@@ -274,7 +275,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 .page-hero-desc{font-size:17px;color:rgba(245,245,240,0.68);max-width:600px;margin:0 auto 36px;line-height:1.75}
 
 /* Pack cards */
-.packs-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px;margin-top:8px}
+.packs-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:8px}
 .pack-card{position:relative;background:linear-gradient(145deg,rgba(13,32,64,0.9),rgba(10,22,40,0.95));border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:32px 28px;transition:transform .3s,box-shadow .3s,border-color .3s;overflow:hidden;display:flex;flex-direction:column}
 .pack-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent,var(--agua))}
 .pack-card:hover{transform:translateY(-6px);border-color:rgba(0,200,224,0.2);box-shadow:0 20px 60px rgba(0,0,0,0.5)}
@@ -356,6 +357,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 /* Section divider */
 .sdiv{height:1px;background:linear-gradient(90deg,transparent,rgba(0,200,224,0.15),transparent);margin:0}
 
+@media(max-width:1100px){.packs-wrap{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){
   .packs-wrap{grid-template-columns:1fr}
   .mod2-grid{grid-template-columns:1fr}
@@ -585,7 +587,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
         <div style="width:64px;height:64px;border-radius:50%;background:rgba(0,200,224,0.1);border:2px solid var(--agua);display:flex;align-items:center;justify-content:center;margin:0 auto 20px"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--agua)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
         <h3>¡Solicitud enviada!</h3>
         <p>Hemos recibido tu solicitud de patrocinio.<br>Nos pondremos en contacto en menos de 48 horas.</p>
-        <p style="margin-top:12px;font-size:13px;color:rgba(138,154,181,0.45)">¿Tienes prisa? Escríbenos a <a href="mailto:luxinpro@gmail.com" style="color:var(--agua);text-decoration:none">luxinpro@gmail.com</a></p>
+        <p style="margin-top:12px;font-size:13px;color:rgba(138,154,181,0.45)">¿Tienes prisa? Escríbenos a <a href="/cdn-cgi/l/email-protection#cba7beb3a2a5bbb9a48baca6aaa2a7e5a8a4a6" style="color:var(--agua);text-decoration:none"><span class="__cf_email__" data-cfemail="1f736a6776716f6d705f78727e7673317c7072">[email&#160;protected]</span></a></p>
       </div>
     </div>
     <p style="text-align:center;margin-top:24px;font-size:12px;color:rgba(138,154,181,0.3);line-height:1.7">La organización se reserva el derecho de modificar el programa por razones operativas o de fuerza mayor.</p>
@@ -613,6 +615,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     </div>
   </div>
 </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script>
 
 // Countdown
