@@ -627,41 +627,25 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 </footer>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script>
-
-// Countdown
-function updateCountdown(){
-  const target=new Date('2026-07-18T16:00:00');
-  const now=new Date();
-  const diff=target-now;
-  if(diff<=0){document.getElementById('cd-d').textContent='¡YA!';return}
-  const d=Math.floor(diff/86400000);
-  const h=Math.floor((diff%86400000)/3600000);
-  const m=Math.floor((diff%3600000)/60000);
-  const s=Math.floor((diff%60000)/1000);
-  document.getElementById('cd-d').textContent=String(d).padStart(2,'0');
-  document.getElementById('cd-h').textContent=String(h).padStart(2,'0');
-  document.getElementById('cd-m').textContent=String(m).padStart(2,'0');
-  document.getElementById('cd-s').textContent=String(s).padStart(2,'0');
-}
-updateCountdown();
-setInterval(updateCountdown,1000);
-
 // Navbar scroll
 window.addEventListener('scroll',function(){
-  document.getElementById('navbar').classList.toggle('solid',window.scrollY>60);
+  var nb=document.getElementById('navbar');
+  if(nb) nb.classList.toggle('solid',window.scrollY>60);
 });
 
 // Speed lines
 var sl=document.getElementById('speedlines');
-for(var i=0;i<20;i++){
-  var l=document.createElement('div');
-  l.className='sline';
-  l.style.top=Math.random()*100+'%';
-  l.style.width=(80+Math.random()*200)+'px';
-  l.style.left=Math.random()*60+'%';
-  l.style.animationDelay=Math.random()*3+'s';
-  l.style.animationDuration=(2+Math.random()*3)+'s';
-  sl.appendChild(l);
+if(sl){
+  for(var i=0;i<20;i++){
+    var l=document.createElement('div');
+    l.className='sline';
+    l.style.top=Math.random()*100+'%';
+    l.style.width=(80+Math.random()*200)+'px';
+    l.style.left=Math.random()*60+'%';
+    l.style.animationDelay=Math.random()*3+'s';
+    l.style.animationDuration=(2+Math.random()*3)+'s';
+    sl.appendChild(l);
+  }
 }
 
 // Particles
@@ -683,41 +667,26 @@ if(pc){
   }
 }
 
-// Scroll reveal — threshold 0 so it fires immediately when ANY part is visible
-var obs=new IntersectionObserver(function(entries){
-  entries.forEach(function(entry){
-    if(entry.isIntersecting){
-      entry.target.classList.add('visible');
-    }
-  });
-},{threshold:0, rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(function(el){
-  obs.observe(el);
-});
-
 // FAQ toggle
-function toggleFaq(btn){
-  var item=btn.parentElement;
-  var wasOpen=item.classList.contains('open');
-  document.querySelectorAll('.faq-item.open').forEach(function(i){i.classList.remove('open');});
-  if(!wasOpen) item.classList.add('open');
+function faqToggle(btn){
+  var it=btn.parentElement;
+  var was=it.classList.contains('open');
+  document.querySelectorAll('.faq-it.open').forEach(function(x){x.classList.remove('open');});
+  if(!was) it.classList.add('open');
 }
 
-// Cookie banner
-function acceptCookies(type){
-  try{ localStorage.setItem('cookieConsent',type); }catch(e){}
-  document.getElementById('cookie-banner').style.display='none';
+// Form submit to Google Sheets
+function sendForm(e,url,fid,sid){
+  e.preventDefault();
+  var f=document.getElementById(fid);
+  var d=new FormData(f);
+  var o={};
+  d.forEach(function(v,k){o[k]=v;});
+  o.timestamp=new Date().toISOString();
+  fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)})
+    .then(function(){f.style.display='none';document.getElementById(sid).style.display='block';})
+    .catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});
+  return false;
 }
-(function(){
-  try{
-    if(localStorage.getItem('cookieConsent')){
-      document.getElementById('cookie-banner').style.display='none';
-    }
-  }catch(e){}
-})();
-
-function faqToggle(btn){var it=btn.parentElement;var was=it.classList.contains('open');document.querySelectorAll('.faq-it.open').forEach(function(x){x.classList.remove('open');});if(!was)it.classList.add('open');}
-function sendForm(e,url,fid,sid){e.preventDefault();var f=document.getElementById(fid);var d=new FormData(f);var o={};d.forEach(function(v,k){o[k]=v;});o.timestamp=new Date().toISOString();fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)}).then(function(){f.style.display='none';document.getElementById(sid).style.display='block';}).catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});return false;}
-
 </script>
 </body></html>
