@@ -364,7 +364,12 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .prog-grid{grid-template-columns:1fr}
   .form-grid2{grid-template-columns:1fr}
   .form-box{padding:32px 20px}
-}</style>
+}
+.packs-row-top{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:24px}
+.packs-row-bottom{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:760px;margin:0 auto}
+@media(max-width:1000px){.packs-row-top{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.packs-row-top,.packs-row-bottom{grid-template-columns:1fr}.packs-row-bottom{max-width:100%}}
+</style>
 </head><body><nav id="navbar">
   <a href="index.html" class="nav-logo">EXHIBICIÓN<span> </span>MOTONÁUTICA</a>
   <div style="display:flex;align-items:center;gap:24px">
@@ -418,8 +423,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     <p class="section-tag">Packs de patrocinio 2026</p>
     <h2 class="section-title">Elige tu nivel <span>de presencia</span></h2>
     <p class="section-body" style="max-width:600px;margin-bottom:48px">Contacta con nosotros para conocer las tarifas y disponibilidad. Las plazas son limitadas y se asignan por orden de solicitud.</p>
-    <div class="packs-wrap">
-
+    <div class="packs-row-top">
       <div class="pack-card" style="--accent:var(--gris)">
         <div class="pack-eyebrow">Pack</div>
         <div class="pack-name">Inicio</div>
@@ -431,7 +435,6 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
         </ul>
         <a href="#formulario" class="pack-btn">Solicitar información</a>
       </div>
-
       <div class="pack-card" style="--accent:#4a9eff">
         <div class="pack-eyebrow">Pack</div>
         <div class="pack-name">Básico</div>
@@ -445,7 +448,6 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
         </ul>
         <a href="#formulario" class="pack-btn">Solicitar información</a>
       </div>
-
       <div class="pack-card feat" style="--accent:var(--agua)">
         <span class="pack-pill c1">Recomendado</span>
         <div class="pack-eyebrow">Pack</div>
@@ -461,7 +463,8 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
         </ul>
         <a href="#formulario" class="pack-btn">Solicitar información</a>
       </div>
-
+    </div>
+    <div class="packs-row-bottom">
       <div class="pack-card" style="--accent:var(--oro)">
         <span class="pack-pill c2">Premium</span>
         <div class="pack-eyebrow">Pack</div>
@@ -477,13 +480,12 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
         </ul>
         <a href="#formulario" class="pack-btn">Solicitar información</a>
       </div>
-
-      <div class="pack-card" style="--accent:var(--rojo);grid-column:1/-1;max-width:560px;margin:0 auto;width:100%">
+      <div class="pack-card" style="--accent:var(--rojo)">
         <span class="pack-pill c3">VIP · Exclusivo</span>
         <div class="pack-eyebrow">Pack</div>
         <div class="pack-name">Premium</div>
         <div class="pack-limit">Máximo 2 plazas — Patrocinador principal del evento</div>
-        <ul class="pack-list" style="display:grid;grid-template-columns:1fr 1fr;gap:0">
+        <ul class="pack-list">
           <li><svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 7 5.5 10.5 12 3"/></svg> Logo principal en carteles, photocall y banderas</li>
           <li><svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 7 5.5 10.5 12 3"/></svg> Nombre de marca en toda la comunicación</li>
           <li><svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 7 5.5 10.5 12 3"/></svg> Stand de 3×6 m en zona premium</li>
@@ -617,41 +619,25 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 </footer>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script>
-
-// Countdown
-function updateCountdown(){
-  const target=new Date('2026-07-18T16:00:00');
-  const now=new Date();
-  const diff=target-now;
-  if(diff<=0){document.getElementById('cd-d').textContent='¡YA!';return}
-  const d=Math.floor(diff/86400000);
-  const h=Math.floor((diff%86400000)/3600000);
-  const m=Math.floor((diff%3600000)/60000);
-  const s=Math.floor((diff%60000)/1000);
-  document.getElementById('cd-d').textContent=String(d).padStart(2,'0');
-  document.getElementById('cd-h').textContent=String(h).padStart(2,'0');
-  document.getElementById('cd-m').textContent=String(m).padStart(2,'0');
-  document.getElementById('cd-s').textContent=String(s).padStart(2,'0');
-}
-updateCountdown();
-setInterval(updateCountdown,1000);
-
 // Navbar scroll
 window.addEventListener('scroll',function(){
-  document.getElementById('navbar').classList.toggle('solid',window.scrollY>60);
+  var nb=document.getElementById('navbar');
+  if(nb) nb.classList.toggle('solid',window.scrollY>60);
 });
 
 // Speed lines
 var sl=document.getElementById('speedlines');
-for(var i=0;i<20;i++){
-  var l=document.createElement('div');
-  l.className='sline';
-  l.style.top=Math.random()*100+'%';
-  l.style.width=(80+Math.random()*200)+'px';
-  l.style.left=Math.random()*60+'%';
-  l.style.animationDelay=Math.random()*3+'s';
-  l.style.animationDuration=(2+Math.random()*3)+'s';
-  sl.appendChild(l);
+if(sl){
+  for(var i=0;i<20;i++){
+    var l=document.createElement('div');
+    l.className='sline';
+    l.style.top=Math.random()*100+'%';
+    l.style.width=(80+Math.random()*200)+'px';
+    l.style.left=Math.random()*60+'%';
+    l.style.animationDelay=Math.random()*3+'s';
+    l.style.animationDuration=(2+Math.random()*3)+'s';
+    sl.appendChild(l);
+  }
 }
 
 // Particles
@@ -673,41 +659,26 @@ if(pc){
   }
 }
 
-// Scroll reveal — threshold 0 so it fires immediately when ANY part is visible
-var obs=new IntersectionObserver(function(entries){
-  entries.forEach(function(entry){
-    if(entry.isIntersecting){
-      entry.target.classList.add('visible');
-    }
-  });
-},{threshold:0, rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(function(el){
-  obs.observe(el);
-});
-
 // FAQ toggle
-function toggleFaq(btn){
-  var item=btn.parentElement;
-  var wasOpen=item.classList.contains('open');
-  document.querySelectorAll('.faq-item.open').forEach(function(i){i.classList.remove('open');});
-  if(!wasOpen) item.classList.add('open');
+function faqToggle(btn){
+  var it=btn.parentElement;
+  var was=it.classList.contains('open');
+  document.querySelectorAll('.faq-it.open').forEach(function(x){x.classList.remove('open');});
+  if(!was) it.classList.add('open');
 }
 
-// Cookie banner
-function acceptCookies(type){
-  try{ localStorage.setItem('cookieConsent',type); }catch(e){}
-  document.getElementById('cookie-banner').style.display='none';
+// Form submit to Google Sheets
+function sendForm(e,url,fid,sid){
+  e.preventDefault();
+  var f=document.getElementById(fid);
+  var d=new FormData(f);
+  var o={};
+  d.forEach(function(v,k){o[k]=v;});
+  o.timestamp=new Date().toISOString();
+  fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)})
+    .then(function(){f.style.display='none';document.getElementById(sid).style.display='block';})
+    .catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});
+  return false;
 }
-(function(){
-  try{
-    if(localStorage.getItem('cookieConsent')){
-      document.getElementById('cookie-banner').style.display='none';
-    }
-  }catch(e){}
-})();
-
-function faqToggle(btn){var it=btn.parentElement;var was=it.classList.contains('open');document.querySelectorAll('.faq-it.open').forEach(function(x){x.classList.remove('open');});if(!was)it.classList.add('open');}
-function sendForm(e,url,fid,sid){e.preventDefault();var f=document.getElementById(fid);var d=new FormData(f);var o={};d.forEach(function(v,k){o[k]=v;});o.timestamp=new Date().toISOString();fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)}).then(function(){f.style.display='none';document.getElementById(sid).style.display='block';}).catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});return false;}
-
 </script>
 </body></html>
