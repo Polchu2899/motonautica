@@ -275,6 +275,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 .galeria-item.wide{grid-column:2/4}
 .galeria-overlay{position:absolute;bottom:0;left:0;right:0;padding:20px;z-index:2;transform:translateY(8px);opacity:0;transition:all .3s}
 .galeria-item:hover .galeria-overlay{transform:translateY(0);opacity:1}
+.galeria-item:hover .play-overlay div{transform:scale(1.15);background:rgba(232,56,42,0.85)!important}
 .galeria-overlay span{font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--agua);background:rgba(0,0,0,0.5);padding:4px 12px;border-radius:2px;backdrop-filter:blur(4px)}
 .galeria-cta{text-align:center;margin-top:40px}
 
@@ -323,7 +324,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   <div class="hero-glow"></div>
   <!-- Hero background image with overlay -->
   <div style="position:absolute;inset:0;z-index:1;overflow:hidden">
-    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=85&fit=crop" 
+    <img src="https://img.youtube.com/vi/WavJPiAKcxs/maxresdefault.jpg" 
          alt="" 
          style="width:100%;height:100%;object-fit:cover;object-position:center 40%;opacity:0.18;filter:saturate(1.4) brightness(0.8)"
          loading="eager"
@@ -615,42 +616,52 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 
     <div class="galeria-grid" style="margin-top:48px">
 
-      <!-- Tall left: jet ski action -->
-      <div class="galeria-item tall">
-        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop" 
-             alt="Moto de agua a máxima velocidad" loading="lazy"
-             onerror="this.style.background='linear-gradient(135deg,#061830,#0a2e58)';this.style.display='block'">
-        <div class="galeria-overlay"><span>Velocidad</span></div>
+      <!-- TALL LEFT: Real event video thumbnail with play button -->
+      <div class="galeria-item tall" style="cursor:pointer" onclick="document.getElementById('video').scrollIntoView({behavior:'smooth'})">
+        <img src="https://img.youtube.com/vi/WavJPiAKcxs/maxresdefault.jpg" 
+             alt="Exhibición Motonáutica Festes de Sant Jaume — vídeo oficial del evento"
+             loading="lazy"
+             onerror="this.src='https://img.youtube.com/vi/WavJPiAKcxs/hqdefault.jpg'">
+        <!-- Play button overlay -->
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:3;transition:all .3s" class="play-overlay">
+          <div style="width:72px;height:72px;border-radius:50%;background:rgba(0,0,0,0.7);border:3px solid rgba(255,255,255,0.9);display:flex;align-items:center;justify-content:center;transition:transform .3s,background .3s">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21"/></svg>
+          </div>
+        </div>
+        <div class="galeria-overlay"><span>▶ Ver Vídeo Oficial</span></div>
       </div>
 
-      <!-- Wide top right: sea view -->
+      <!-- WIDE TOP RIGHT: Jet ski racing - Pexels 1007836 -->
       <div class="galeria-item wide">
-        <img src="https://images.unsplash.com/photo-1520716346813-ab5ae0b0af73?w=900&q=80&fit=crop" 
-             alt="Exhibición de motos de agua" loading="lazy"
-             onerror="this.style.background='linear-gradient(135deg,#061830,#0a2e58)'">
-        <div class="galeria-overlay"><span>Exhibición</span></div>
+        <img src="https://images.pexels.com/photos/1007836/pexels-photo-1007836.jpeg?auto=compress&cs=tinysrgb&w=900&h=400&fit=crop" 
+             alt="Motos de agua en competición"
+             loading="lazy"
+             onerror="this.closest('.galeria-item').style.background='linear-gradient(135deg,#061830,#0a2e58)'">
+        <div class="galeria-overlay"><span>Alta Velocidad</span></div>
       </div>
 
-      <!-- Bottom middle -->
+      <!-- BOTTOM MIDDLE: Jet ski spray action - Pexels 60597 -->
       <div class="galeria-item">
-        <img src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?w=600&q=80&fit=crop" 
-             alt="Piloto en acción" loading="lazy"
-             onerror="this.style.background='linear-gradient(135deg,#0a1628,#061830)'">
+        <img src="https://images.pexels.com/photos/60597/pexels-photo-60597.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+             alt="Moto de agua a máxima velocidad"
+             loading="lazy"
+             onerror="this.closest('.galeria-item').style.background='linear-gradient(135deg,#0a1628,#061830)'">
         <div class="galeria-overlay"><span>Precisión</span></div>
       </div>
 
-      <!-- Bottom right -->
+      <!-- BOTTOM RIGHT: Water sports - Pexels 1176936 -->
       <div class="galeria-item">
-        <img src="https://images.unsplash.com/photo-1530053969600-caed2596d242?w=600&q=80&fit=crop" 
-             alt="Puerto natural de Menorca" loading="lazy"
-             onerror="this.style.background='linear-gradient(135deg,#0a1628,#061830)'">
-        <div class="galeria-overlay"><span>Menorca</span></div>
+        <img src="https://images.pexels.com/photos/1176936/pexels-photo-1176936.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+             alt="Exhibición náutica"
+             loading="lazy"
+             onerror="this.closest('.galeria-item').style.background='linear-gradient(135deg,#0a1628,#061830)'">
+        <div class="galeria-overlay"><span>Espectáculo</span></div>
       </div>
 
     </div>
 
     <div class="galeria-cta reveal" style="margin-top:48px">
-      <p style="font-size:16px;color:rgba(245,245,240,0.6);margin-bottom:24px;max-width:500px;margin-left:auto;margin-right:auto">¿Quieres vivir esta experiencia en primera persona? Inscríbete como piloto o patrocinador.</p>
+      <p style="font-size:16px;color:rgba(245,245,240,0.6);margin-bottom:24px;max-width:500px;margin-left:auto;margin-right:auto">¿Quieres vivir esta experiencia en primera persona? Inscríbete como piloto o patrocina el evento.</p>
       <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
         <a href="pilotos.html" class="btn btn-rojo" style="font-size:15px;padding:14px 36px">Quiero ser Piloto</a>
         <a href="patrocinadores.html" class="btn btn-solid" style="font-size:15px;padding:14px 36px">Quiero Patrocinar</a>
@@ -669,7 +680,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     </div>
     <div class="video-wrap reveal">
       <iframe 
-        src="https://www.youtube.com/embed/videoseries?list=PLrelated&autoplay=0&rel=0&modestbranding=1&cc_load_policy=0"
+        src="https://www.youtube.com/embed/WavJPiAKcxs?rel=0&modestbranding=1&color=white"
         title="Exhibición Motonáutica Festes de Sant Jaume — Es Castell, Menorca"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -990,6 +1001,7 @@ function acceptCookies(type){
   }catch(e){}
 })();
 </script>
+
 
 
 
