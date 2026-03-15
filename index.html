@@ -30,7 +30,9 @@ nav.solid{background:rgba(10,22,40,0.97);box-shadow:0 2px 30px rgba(0,200,224,0.
 .nav-links{display:flex;gap:32px;list-style:none}
 .nav-links a{color:var(--gris);text-decoration:none;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:600;transition:color .2s}
 .nav-links a:hover{color:var(--agua)}
-.nav-cta{display:flex;gap:12px}
+.nav-cta{display:flex;align-items:center;gap:8px}
+.nav-lang{display:flex;align-items:center;gap:2px}
+.nav-btns{display:flex;gap:10px}
 .btn{display:inline-block;padding:10px 24px;border-radius:2px;font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s;cursor:pointer;border:none}
 .btn-outline{border:1.5px solid var(--agua);color:var(--agua);background:transparent}
 .btn-outline:hover{background:var(--agua);color:var(--azul)}
@@ -236,7 +238,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 /* MOBILE */
 @media(max-width:768px){
   nav{padding:12px 20px}
-  .nav-links,.nav-cta{display:none}
+  .nav-links,.nav-btns{display:none}
   .hero-title{font-size:clamp(44px,14vw,90px)}
   .hero-date-badge{flex-direction:column;gap:8px;padding:20px}
   .hero-btns{flex-direction:column;align-items:center}
@@ -294,13 +296,15 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     <li><a href="#faq">FAQ</a></li>
   </ul>
   <div class="nav-cta">
-    <div style="display:flex;align-items:center;gap:4px;margin-right:8px">
+    <div class="nav-lang">
       <a href="index.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:var(--agua);text-decoration:none;text-transform:uppercase;padding:4px 8px;border-radius:3px;background:rgba(0,200,224,0.08)">ES</a>
       <a href="ca/index.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:rgba(138,154,181,0.5);text-decoration:none;text-transform:uppercase;padding:4px 8px;border-radius:3px;transition:all .2s" onmouseover="this.style.color='var(--agua)'" onmouseout="this.style.color='rgba(138,154,181,0.5)'">CA</a>
       <a href="en/index.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:rgba(138,154,181,0.5);text-decoration:none;text-transform:uppercase;padding:4px 8px;border-radius:3px;transition:all .2s" onmouseover="this.style.color='var(--agua)'" onmouseout="this.style.color='rgba(138,154,181,0.5)'">EN</a>
     </div>
-    <a href="patrocinadores.html" class="btn btn-outline">Patrocinar</a>
-    <a href="pilotos.html" class="btn btn-solid">Inscribirse</a>
+    <div class="nav-btns">
+      <a href="patrocinadores.html" class="btn btn-outline">Patrocinar</a>
+      <a href="pilotos.html" class="btn btn-solid">Inscribirse</a>
+    </div>
   </div>
 </nav>
 
@@ -905,6 +909,7 @@ function acceptCookies(type){
   }catch(e){}
 })();
 </script>
+
 
 
 
