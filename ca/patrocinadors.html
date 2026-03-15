@@ -375,10 +375,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     <a href="../en/index.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:rgba(138,154,181,0.5);text-decoration:none;text-transform:uppercase;padding:4px 8px;border-radius:3px;transition:all .2s" onmouseover="this.style.color='var(--agua)'" onmouseout="this.style.color='rgba(138,154,181,0.5)'">EN</a>
     <a href="patrocinadors.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:var(--gris);text-decoration:none;text-transform:uppercase;transition:color .2s" onmouseover="this.style.color='var(--agua)'" onmouseout="this.style.color='var(--gris)'">Patrocinadors</a>
     <a href="pilots.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:var(--gris);text-decoration:none;text-transform:uppercase;transition:color .2s" onmouseover="this.style.color='var(--agua)'" onmouseout="this.style.color='var(--gris)'">Pilots</a>
-    <a href="../index.html" style="font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;color:var(--gris);text-decoration:none;text-transform:uppercase;display:flex;align-items:center;gap:6px;transition:color .2s" onmouseover="this.style.color='var(--agua)'" onmouseout="this.style.color='var(--gris)'">
-      <svg width="12" height="9" viewBox="0 0 14 10" fill="none"><path d="M5 1L1 5L5 9M1 5H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      Inici
-    </a>
+    <a href="index.html" style="font-family:\'Oswald\',sans-serif;font-size:11px;letter-spacing:2px;color:var(--gris);text-decoration:none;text-transform:uppercase;display:flex;align-items:center;gap:6px;transition:color .2s" onmouseover="this.style.color=\'var(--agua)\'" onmouseout="this.style.color=\'var(--gris)\'"><svg width="12" height="9" viewBox="0 0 14 10" fill="none"><path d="M5 1L1 5L5 9M1 5H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Inici</a>
   </div>
 </nav><section class="hero">
   <div class="hero-bg"></div><div class="hero-glow"></div>
@@ -498,7 +495,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
         <div style="width:64px;height:64px;border-radius:50%;background:rgba(0,200,224,0.1);border:2px solid var(--agua);display:flex;align-items:center;justify-content:center;margin:0 auto 20px"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--agua)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
         <h3>Sol·licitud enviada!</h3>
         <p>Hem rebut la teva sol·licitud de patrocini.<br>Ens posarem en contacte en menys de 48 hores.</p>
-        <p style="margin-top:12px;font-size:13px;color:rgba(138,154,181,0.45)">Tens pressa? Escriu-nos a <a href="mailto:luxinpro@gmail.com" style="color:var(--agua);text-decoration:none">luxinpro@gmail.com</a></p>
+        <p style="margin-top:12px;font-size:13px;color:rgba(138,154,181,0.45)">Tens pressa? Escriu-nos a <a href="/cdn-cgi/l/email-protection#3458414c5d5a44465b745359555d581a575b59" style="color:var(--agua);text-decoration:none"><span class="__cf_email__" data-cfemail="bdd1c8c5d4d3cdcfd2fddad0dcd4d193ded2d0">[email&#160;protected]</span></a></p>
       </div>
     </div>
   </div>
@@ -523,7 +520,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
       <a href="politica-de-cookies/" style="font-size:11px;letter-spacing:1.5px;color:rgba(138,154,181,0.45);text-decoration:none;text-transform:uppercase;transition:color .2s" onmouseover="this.style.color='rgba(0,200,224,0.7)'" onmouseout="this.style.color='rgba(138,154,181,0.45)'">Cookies</a>
     </div>
   </div>
-</footer><script>
+</footer><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // Navbar scroll
 window.addEventListener('scroll',function(){
   var nb=document.getElementById('navbar');
@@ -538,5 +535,4 @@ if(pc){for(var j=0;j<30;j++){var p=document.createElement('div');p.className='pa
 // FAQ toggle
 function faqToggle(btn){var it=btn.parentElement;var was=it.classList.contains('open');document.querySelectorAll('.faq-it.open').forEach(function(x){x.classList.remove('open');});if(!was)it.classList.add('open');}
 // Form submit
-function sendForm(e,url,fid,sid){e.preventDefault();var f=document.getElementById(fid);var d=new FormData(f);var o={};d.forEach(function(v,k){o[k]=v;});o.timestamp=new Date().toISOString();fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)}).then(function(){f.style.display='none';document.getElementById(sid).style.display='block';}).catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});return false;}
-</script></body></html>
+function sendForm(e,url,fid,sid){e.preventDefault();var f=document.getElementById(fid);var d=new FormData(f);var o={};d.forEach(function(v,k){o[k]=v;});o.timestamp=new Date().toISOString();fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON
