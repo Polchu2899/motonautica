@@ -237,7 +237,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 
 /* MOBILE */
 @media(max-width:768px){
-  nav{padding:12px 20px}
+  nav{padding:10px 16px;overflow:visible}
   .nav-links,.nav-btns{display:none}
   .hero-title{font-size:clamp(44px,14vw,90px)}
   .hero-date-badge{flex-direction:column;gap:8px;padding:20px}
@@ -251,6 +251,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   section{padding:64px 0}
   .millas::before{font-size:100px}
   .footer-inner{flex-direction:column;gap:20px;text-align:center}
+
 }
 
 /* WAVE DIVIDERS between sections */
@@ -281,7 +282,15 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 @media(max-width:600px){
   
 }
-</style>
+
+/* ── Mobile nav: fit logo + lang ── */
+@media(max-width:480px){
+  nav{padding:10px 14px;flex-wrap:nowrap;gap:8px}
+  .nav-logo{font-size:11px;letter-spacing:1.5px;flex-shrink:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:calc(100vw - 120px)}
+  .nav-cta{flex-shrink:0;gap:4px}
+  .nav-lang{gap:1px}
+  .nav-lang a{font-size:10px;padding:3px 5px;letter-spacing:1px;border-radius:2px}
+}</style>
 </head>
 <body>
 
@@ -909,6 +918,8 @@ function acceptCookies(type){
   }catch(e){}
 })();
 </script>
+
+
 
 
 
