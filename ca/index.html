@@ -263,7 +263,12 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 /* Countdown bar — brighter top edge */
 .countdown-bar{background:rgba(0,200,224,0.06);border-top:2px solid rgba(0,200,224,0.35);border-bottom:1px solid rgba(0,200,224,0.15);padding:28px 0;position:relative}
 .countdown-bar::before{content:'';position:absolute;top:0;left:10%;right:10%;height:1px;background:radial-gradient(ellipse at center,rgba(0,220,255,0.6),transparent 70%);filter:blur(1px)}
-</style>
+
+/* ── VIDEO ── */
+.video-section{padding:80px 0;background:var(--azul2);border-top:1px solid rgba(0,200,224,0.08);border-bottom:1px solid rgba(0,200,224,0.08)}
+.video-wrap{position:relative;border-radius:12px;overflow:hidden;border:1px solid rgba(0,200,224,0.15);box-shadow:0 24px 80px rgba(0,0,0,0.6)}
+.video-wrap iframe{width:100%;aspect-ratio:16/9;display:block;border:none}
+.video-caption{text-align:center;margin-top:20px;font-size:13px;color:var(--gris);letter-spacing:1px}</style>
 </head>
 <body><nav id="navbar">
   <a href="index.html" class="nav-logo">EXHIBICIÓ<span> </span>MOTONÀUTICA</a>
@@ -563,6 +568,27 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 </section>
 
 
+
+<!-- VIDEO -->
+<section class="video-section" id="video">
+  <div class="container-sm" style="max-width:900px">
+    <div class="reveal" style="text-align:center;margin-bottom:40px">
+      <p class="section-tag">L'Esdeveniment en Vídeo</p>
+      <h2 class="section-title">Mira el que t'<br><span>espera el 2026</span></h2>
+      <p class="section-body" style="max-width:540px;margin:16px auto 0">Les imatges de l'any passat parlen per si soles. Velocitat, precisió i espectacle al Port Natural de Maó.</p>
+    </div>
+    <div class="video-wrap reveal">
+      <iframe
+        src="https://www.youtube.com/embed/WavJPiAKcxs?rel=0&modestbranding=1&color=white"
+        title="Exhibició Motonàutica Festes de Sant Jaume — Es Castell, Menorca"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
+    <p class="video-caption">Exhibició Motonàutica · Festes de Sant Jaume · Es Castell, Menorca</p>
+  </div>
+</section>
 
 <!-- 500 MILLAS -->
 <section class="millas" id="500millas">
