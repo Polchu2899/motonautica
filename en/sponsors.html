@@ -447,7 +447,9 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     <h2 class="section-title" style="text-align:center;margin-bottom:10px">Apply as a <span>Sponsor</span></h2>
     <p class="section-body" style="text-align:center;margin-bottom:48px">Fill in the form and we'll get back to you within 48 hours with full information and pricing.</p>
     <div class="form-box">
-      <form id="fspon" onsubmit="sendForm(event,'TU_URL_GOOGLE_SHEETS_PATROCINADORES','fspon','ok-spon')">
+      <form id="fspon" onsubmit="sendForm(event,'https://script.google.com/macros/s/AKfycbzKUYt7tk83jFctgO6dbAJmJ22bHr6jKgWR57DaSrCts_GB5vVLYXOAFN5CSypSgVwK8w/exec','fspon','ok-spon')">
+        <input type="hidden" name="lang" value="en">
+        <input type="hidden" name="tipo" value="patrocinador">
         <div class="form-grid2">
           <div class="fg"><label class="flabel">First name *</label><input class="finput" type="text" name="first_name" placeholder="Your first name" required></div>
           <div class="fg"><label class="flabel">Last name *</label><input class="finput" type="text" name="last_name" placeholder="Your last name" required></div>
