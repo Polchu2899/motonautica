@@ -119,7 +119,7 @@ section{padding:100px 0}
 .port-section::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--agua),var(--oro),var(--agua),transparent)}
 .port-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-top:64px}
 .port-map-container{position:relative;background:rgba(0,200,224,0.04);border:1px solid rgba(0,200,224,0.15);border-radius:8px;padding:16px}
-.port-map-container img{width:100%;height:auto;border-radius:4px;display:block;opacity:0.95}
+.port-map-container img{width:100%;height:auto;max-height:80vh;object-fit:contain;border-radius:4px;display:block;opacity:0.95}
 .port-fact{display:flex;align-items:flex-start;gap:16px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,0.05)}
 .port-fact:last-child{border-bottom:none}
 .port-fact-icon{width:44px;height:44px;min-width:44px;border-radius:50%;background:rgba(0,200,224,0.08);border:1px solid rgba(0,200,224,0.25);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--agua)}
@@ -243,7 +243,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .hero-title{font-size:clamp(44px,14vw,90px)}
   .hero-date-badge{flex-direction:column;gap:8px;padding:20px}
   .hero-btns{flex-direction:column;align-items:center}
-  .historia-grid,.port-grid,.millas-grid,.cta-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
+  .historia-grid,.millas-grid,.cta-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
   .cta-half{padding:48px 24px}
   .cta-half:first-child{border-right:none;border-bottom:1px solid rgba(255,255,255,0.07)}
   .mod-cards{grid-template-columns:1fr}
@@ -300,6 +300,12 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .reveal-left{position:static!important;top:auto!important;width:100%}
   .port-map-container{padding:8px;width:100%;box-sizing:border-box}
   .port-map-container img{width:100%!important;height:auto!important;max-height:75vh;object-fit:contain}
+
+  /* Port map mobile */
+  .port-grid{grid-template-columns:1fr!important;gap:24px!important}
+  .reveal-left{position:static!important;top:auto!important;width:100%}
+  .port-map-container{padding:8px;width:100%;box-sizing:border-box}
+  .port-map-container img{max-height:70vh;object-fit:contain}
 }</style>
 </head>
 <body><nav id="navbar">
@@ -460,10 +466,10 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
       <div class="prog-item"><div class="prog-time">Matí</div><div class="prog-info"><strong>Arribada i Amarratge de Motos</strong><p>Esmorzar i excursió guiada per Menorca per als participants inscrits.</p></div></div>
       <div class="prog-item"><div class="prog-time">Migdia</div><div class="prog-info"><strong>Amarratge i descans</strong><p>Els pilots preparen les seves motos i descansen abans de l'exhibició.</p></div></div>
       <div class="prog-item"><div class="prog-time">17:00</div><div class="prog-info"><strong>Briefing i Preparació</strong><p>Briefing i preparació de l'exhibició amb els pilots inscrits.</p></div></div>
-      <div class="prog-item"><div class="prog-time">18:00</div><div class="prog-info"><strong>Exhibició al Moll d'en Pons</strong><p>Inici de l'exhibició. Les motos al límit pel circuit del Port.</p></div></div>
+      <div class="prog-item"><div class="prog-time">18:00</div><div class="prog-info"><strong>Exhibició al Moll d'en Pons</strong><p>Inici de l'exhibició. Les motos al límit pel circuit.</p></div></div>
       <div class="prog-item"><div class="prog-time">19:00</div><div class="prog-info"><strong>Passejos en Moto per al Públic</strong><p>Inici de l'activitat familiar de passejos en moto d'aigua per al públic assistent.</p></div></div>
       <div class="prog-item"><div class="prog-time">20:00</div><div class="prog-info"><strong>Fi de l'Activitat</strong><p>Fi dels passejos. Amarratge de les motos i tancament del circuit.</p></div></div>
-      <div class="prog-item"><div class="prog-time">22:00</div><div class="prog-info"><strong>Sopar de Gala i Lliurament de Premis</strong><p>Sopar exclusiu i lliurament de premis. <strong style="color:var(--oro)">Només per a pilots i patrocinadors inscrits.</strong></p></div></div>
+      <div class="prog-item"><div class="prog-time">22:00</div><div class="prog-info"><strong>Sopar de Gala i Lliurament de Premis</strong><p>La nit del dissabte celebrem la jornada amb un sopar de gala i lliurament de premis a patrocinadors i pilots inscrits a l'emblemàtic Hotel Hamilton d'Es Castell. <strong style="color:var(--oro)">Només per a inscrits.</strong></p></div></div>
     </div>
     <div class="reveal" style="margin-top:64px;display:grid;grid-template-columns:1fr 1fr;gap:40px">
       <div>
@@ -511,7 +517,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
           </svg>
         </span>
         <h3>Velocitat</h3>
-        <p>Les motos al màxim al circuit obert del Port de Maó. Velocitates brutales con el espectacular telón de fondo del puerto natural.</p>
+        <p>Les motos al màxim al circuit obert. Velocitates brutales con el espectacular telón de fondo del puerto natural.</p>
       </div>
       <div class="mod-card reveal" style="transition-delay:.1s">
         <span class="mod-icon">
