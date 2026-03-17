@@ -118,7 +118,7 @@ section{padding:100px 0}
 .port-section::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--agua),var(--oro),var(--agua),transparent)}
 .port-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-top:64px}
 .port-map-container{position:relative;background:rgba(0,200,224,0.04);border:1px solid rgba(0,200,224,0.15);border-radius:8px;padding:16px}
-.port-map-container img{width:100%;height:auto;border-radius:4px;display:block;opacity:0.95}
+.port-map-container img{width:100%;height:auto;max-height:80vh;object-fit:contain;border-radius:4px;display:block;opacity:0.95}
 .port-fact{display:flex;align-items:flex-start;gap:16px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,0.05)}
 .port-fact:last-child{border-bottom:none}
 .port-fact-icon{width:44px;height:44px;min-width:44px;border-radius:50%;background:rgba(0,200,224,0.08);border:1px solid rgba(0,200,224,0.25);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--agua)}
@@ -242,7 +242,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .hero-title{font-size:clamp(44px,14vw,90px)}
   .hero-date-badge{flex-direction:column;gap:8px;padding:20px}
   .hero-btns{flex-direction:column;align-items:center}
-  .historia-grid,.port-grid,.millas-grid,.cta-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
+  .historia-grid,.millas-grid,.cta-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
   .cta-half{padding:48px 24px}
   .cta-half:first-child{border-right:none;border-bottom:1px solid rgba(255,255,255,0.07)}
   .mod-cards{grid-template-columns:1fr}
@@ -251,10 +251,6 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   section{padding:64px 0}
   .millas::before{font-size:100px}
   .footer-inner{flex-direction:column;gap:20px;text-align:center}
-
-
-  .port-map-container{padding:10px;margin-bottom:16px}
-  .reveal-left{position:static!important}
 
 }
 
@@ -277,15 +273,6 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
 .video-wrap{position:relative;border-radius:12px;overflow:hidden;border:1px solid rgba(0,200,224,0.15);box-shadow:0 24px 80px rgba(0,0,0,0.6)}
 .video-wrap iframe{width:100%;aspect-ratio:16/9;display:block;border:none}
 .video-caption{text-align:center;margin-top:20px;font-size:13px;color:var(--gris);letter-spacing:1px}
-
-@media(max-width:900px){
-  
-  
-  
-}
-@media(max-width:600px){
-  
-}
 
 /* ── Mobile nav: fit logo + lang ── */
 @media(max-width:480px){
@@ -310,16 +297,12 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .speedlines{display:none}
   section{max-width:100vw;overflow:hidden}
 
-  /* ── Port map mobile ── */
+  
+  /* Port map mobile */
   .port-grid{grid-template-columns:1fr!important;gap:24px!important}
   .reveal-left{position:static!important;top:auto!important;width:100%}
   .port-map-container{padding:8px;width:100%;box-sizing:border-box}
-  .port-map-container img{width:100%!important;height:auto!important;max-height:75vh;object-fit:contain}
-}  /* ── Port map mobile ── */
-  .port-grid{grid-template-columns:1fr!important;gap:24px!important}
-  .reveal-left{position:static!important;top:auto!important;width:100%}
-  .port-map-container{padding:8px;width:100%;box-sizing:border-box}
-  .port-map-container img{width:100%!important;height:auto!important;max-height:75vh;object-fit:contain}
+  .port-map-container img{width:100%!important;height:auto!important;max-height:70vh;object-fit:contain}
 }</style>
 </head>
 <body>
@@ -952,6 +935,12 @@ function acceptCookies(type){
   }catch(e){}
 })();
 </script>
+
+
+
+
+
+
 
 </body>
 </html>
