@@ -552,10 +552,10 @@ function sendForm(e,url,fid,sid){
   e.preventDefault();
   var f=document.getElementById(fid);
   var d=new FormData(f);
-  var o={};
-  d.forEach(function(v,k){o[k]=v;});
-  o.timestamp=new Date().toISOString();
-  fetch(url,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(o)}).then(function(){f.style.display='none';document.getElementById(sid).style.display='block';}).catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});return false;}
+  var p=new URLSearchParams();
+  d.forEach(function(v,k){p.append(k,v);});
+  p.append('timestamp',new Date().toISOString());
+  fetch(url,{method:'POST',mode:'no-cors',body:p}).then(function(){f.style.display='none';document.getElementById(sid).style.display='block';}).catch(function(){f.style.display='none';document.getElementById(sid).style.display='block';});return false;}
 </script>
 </body>
 </html>
