@@ -485,7 +485,9 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     <h2 class="section-title" style="text-align:center;margin-bottom:10px">Inscriu-te com a <span>Patrocinador</span></h2>
     <p class="section-body" style="text-align:center;margin-bottom:48px">Omple el formulari i ens posarem en contacte en menys de 48 h amb tota la informació i tarifes.</p>
     <div class="form-box">
-      <form id="fpat" onsubmit="sendForm(event,'TU_URL_GOOGLE_SHEETS_PATROCINADORES','fpat','ok-pat')">
+      <form id="fpat" onsubmit="sendForm(event,'https://script.google.com/macros/s/AKfycbzKUYt7tk83jFctgO6dbAJmJ22bHr6jKgWR57DaSrCts_GB5vVLYXOAFN5CSypSgVwK8w/exec','fpat','ok-pat')">
+        <input type="hidden" name="lang" value="ca">
+        <input type="hidden" name="tipo" value="patrocinador">
         <div class="form-grid2">
           <div class="fg"><label class="flabel">Nom *</label><input class="finput" type="text" name="nom" placeholder="El teu nom" required></div>
           <div class="fg"><label class="flabel">Cognoms *</label><input class="finput" type="text" name="cognoms" placeholder="Els teus cognoms" required></div>
