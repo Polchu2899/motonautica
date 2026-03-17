@@ -119,7 +119,7 @@ section{padding:100px 0}
 .port-section::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--agua),var(--oro),var(--agua),transparent)}
 .port-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-top:64px}
 .port-map-container{position:relative;background:rgba(0,200,224,0.04);border:1px solid rgba(0,200,224,0.15);border-radius:8px;padding:16px}
-.port-map-container img{width:100%;height:auto;border-radius:4px;display:block;opacity:0.95}
+.port-map-container img{width:100%;height:auto;max-height:80vh;object-fit:contain;border-radius:4px;display:block;opacity:0.95}
 .port-fact{display:flex;align-items:flex-start;gap:16px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,0.05)}
 .port-fact:last-child{border-bottom:none}
 .port-fact-icon{width:44px;height:44px;min-width:44px;border-radius:50%;background:rgba(0,200,224,0.08);border:1px solid rgba(0,200,224,0.25);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--agua)}
@@ -243,7 +243,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .hero-title{font-size:clamp(44px,14vw,90px)}
   .hero-date-badge{flex-direction:column;gap:8px;padding:20px}
   .hero-btns{flex-direction:column;align-items:center}
-  .historia-grid,.port-grid,.millas-grid,.cta-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
+  .historia-grid,.millas-grid,.cta-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
   .cta-half{padding:48px 24px}
   .cta-half:first-child{border-right:none;border-bottom:1px solid rgba(255,255,255,0.07)}
   .mod-cards{grid-template-columns:1fr}
@@ -300,6 +300,12 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
   .reveal-left{position:static!important;top:auto!important;width:100%}
   .port-map-container{padding:8px;width:100%;box-sizing:border-box}
   .port-map-container img{width:100%!important;height:auto!important;max-height:75vh;object-fit:contain}
+
+  /* Port map mobile */
+  .port-grid{grid-template-columns:1fr!important;gap:24px!important}
+  .reveal-left{position:static!important;top:auto!important;width:100%}
+  .port-map-container{padding:8px;width:100%;box-sizing:border-box}
+  .port-map-container img{max-height:70vh;object-fit:contain}
 }</style>
 </head>
 <body><nav id="navbar">
@@ -460,10 +466,10 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
       <div class="prog-item"><div class="prog-time">Morning</div><div class="prog-info"><strong>Arrival &amp; Jet Ski Mooring</strong><p>Breakfast and guided tour of Menorca for registered participants.</p></div></div>
       <div class="prog-item"><div class="prog-time">Midday</div><div class="prog-info"><strong>Mooring &amp; Rest</strong><p>Pilots prepare their jet skis and rest before the exhibition.</p></div></div>
       <div class="prog-item"><div class="prog-time">17:00</div><div class="prog-info"><strong>Briefing &amp; Preparation</strong><p>Technical briefing and preparation of the exhibition with registered pilots.</p></div></div>
-      <div class="prog-item"><div class="prog-time">18:00</div><div class="prog-info"><strong>Exhibition at Moll d'en Pons</strong><p>Exhibition start. Jet skis at full throttle around the Port circuit. Breathtaking speeds.</p></div></div>
+      <div class="prog-item"><div class="prog-time">18:00</div><div class="prog-info"><strong>Exhibition at Moll d'en Pons</strong><p>Exhibition start. Jet skis at full throttle around the circuit. Breathtaking speeds.</p></div></div>
       <div class="prog-item"><div class="prog-time">19:00</div><div class="prog-info"><strong>Public Jet Ski Rides</strong><p>Start of the family activity — jet ski rides for the public in attendance.</p></div></div>
       <div class="prog-item"><div class="prog-time">20:00</div><div class="prog-info"><strong>End of Activity</strong><p>Rides finish. Jet skis moored and circuit closed.</p></div></div>
-      <div class="prog-item"><div class="prog-time">22:00</div><div class="prog-info"><strong>Gala Dinner &amp; Awards Ceremony</strong><p>Exclusive dinner and awards. <strong style="color:var(--oro)">For registered pilots and sponsors only.</strong></p></div></div>
+      <div class="prog-item"><div class="prog-time">22:00</div><div class="prog-info"><strong>Gala Dinner &amp; Awards Ceremony</strong><p>Saturday evening we celebrate the day with a gala dinner and awards ceremony for registered sponsors and pilots at the iconic Hotel Hamilton in Es Castell. <strong style="color:var(--oro)">Registered participants only.</strong></p></div></div>
     </div>
     <div class="reveal" style="margin-top:64px;display:grid;grid-template-columns:1fr 1fr;gap:40px">
       <div>
@@ -511,7 +517,7 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
           </svg>
         </span>
         <h3>Speed</h3>
-        <p>Jets at full throttle on the open circuit of Port de Mahon. Speedes brutales con el espectacular telón de fondo del puerto natural.</p>
+        <p>Jets at full throttle on the open circuit. Speedes brutales con el espectacular telón de fondo del puerto natural.</p>
       </div>
       <div class="mod-card reveal" style="transition-delay:.1s">
         <span class="mod-icon">
