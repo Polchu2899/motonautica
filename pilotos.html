@@ -547,7 +547,9 @@ footer{background:#050d1a;border-top:1px solid rgba(255,255,255,0.05);padding:40
     <h2 class="section-title" style="text-align:center;margin-bottom:10px">Inscríbete como <span>Piloto</span></h2>
     <p class="section-body" style="text-align:center;margin-bottom:48px">Rellena el formulario y nos pondremos en contacto contigo con toda la información, tarifas y proceso de inscripción.</p>
     <div class="form-box">
-      <form id="fpil" onsubmit="sendForm(event,'TU_URL_GOOGLE_SHEETS_PILOTOS','fpil','ok-pil')">
+      <form id="fpil" onsubmit="sendForm(event,'https://script.google.com/macros/s/AKfycbzKUYt7tk83jFctgO6dbAJmJ22bHr6jKgWR57DaSrCts_GB5vVLYXOAFN5CSypSgVwK8w/exec','fpil','ok-pil')">
+        <input type="hidden" name="lang" value="es">
+        <input type="hidden" name="tipo" value="piloto">
         <div class="form-grid2">
           <div class="fg"><label class="flabel">Nombre *</label><input class="finput" type="text" name="nombre" placeholder="Tu nombre" required></div>
           <div class="fg"><label class="flabel">Apellidos *</label><input class="finput" type="text" name="apellidos" placeholder="Tus apellidos" required></div>
