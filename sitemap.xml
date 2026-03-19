@@ -4,159 +4,159 @@
 
   <!-- ── ESPAÑOL (principal) ─────────────────────────────── -->
   <url>
-    <loc>https://polchu2899.github.io/motonautica/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://polchu2899.github.io/motonautica/"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://motonauticamenorca.com/"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/pilotos.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/pilotos.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/pilots.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/pilots.html"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/pilotos.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/patrocinadores.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/patrocinadores.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/patrocinadors.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/sponsors.html"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/patrocinadores.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/aviso-legal/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/aviso-legal/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/politica-privacidad/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/politica-privacidad/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/politica-de-cookies/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/politica-de-cookies/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <!-- ── CATALÀ ──────────────────────────────────────────── -->
   <url>
-    <loc>https://polchu2899.github.io/motonautica/ca/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://polchu2899.github.io/motonautica/"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/ca/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://motonauticamenorca.com/"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/ca/pilots.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/pilotos.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/pilots.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/pilots.html"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/ca/pilots.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/ca/patrocinadors.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/patrocinadores.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/patrocinadors.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/sponsors.html"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/ca/patrocinadors.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/ca/aviso-legal/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/ca/aviso-legal/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/ca/politica-privacitat/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/ca/politica-privacitat/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/ca/politica-de-cookies/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/ca/politica-de-cookies/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <!-- ── ENGLISH ─────────────────────────────────────────── -->
   <url>
-    <loc>https://polchu2899.github.io/motonautica/en/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://polchu2899.github.io/motonautica/"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://motonauticamenorca.com/"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/en/pilots.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/pilotos.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/pilots.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/pilots.html"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/en/pilots.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/en/sponsors.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://polchu2899.github.io/motonautica/patrocinadores.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://polchu2899.github.io/motonautica/ca/patrocinadors.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://polchu2899.github.io/motonautica/en/sponsors.html"/>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/en/sponsors.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/en/legal-notice/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/en/legal-notice/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/en/privacy-policy/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/en/privacy-policy/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://polchu2899.github.io/motonautica/en/cookies-policy/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://motonauticamenorca.com/en/cookies-policy/</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
