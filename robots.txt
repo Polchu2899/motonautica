@@ -1,11 +1,9 @@
 # robots.txt — Exhibición Motonáutica Festes de Sant Jaume 2026
-# https://polchu2899.github.io/motonautica/
+# https://motonauticamenorca.com/
 
-# Permitir todos los robots de búsqueda
 User-agent: *
 Allow: /
 
-# No indexar páginas legales (poco valor SEO)
 Disallow: /aviso-legal/
 Disallow: /politica-privacidad/
 Disallow: /politica-de-cookies/
@@ -16,8 +14,4 @@ Disallow: /en/legal-notice/
 Disallow: /en/privacy-policy/
 Disallow: /en/cookies-policy/
 
-# Sitemap
-Sitemap: https://polchu2899.github.io/motonautica/sitemap.xml
-
-# Crawl-delay opcional (1 seg entre peticiones para no saturar GitHub Pages)
-Crawl-delay: 1
+Sitemap: https://motonauticamenorca.com/sitemap.xml
