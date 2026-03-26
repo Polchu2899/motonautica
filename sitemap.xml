@@ -9,50 +9,27 @@
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://motonauticamenorca.com/"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
   <url>
     <loc>https://motonauticamenorca.com/pilotos.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://motonauticamenorca.com/patrocinadores.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/aviso-legal/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/politica-privacidad/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/politica-de-cookies/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
   </url>
 
   <!-- ── CATALÀ ──────────────────────────────────────────── -->
@@ -62,50 +39,27 @@
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://motonauticamenorca.com/"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://motonauticamenorca.com/ca/pilots.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://motonauticamenorca.com/ca/patrocinadors.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/ca/aviso-legal/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/ca/politica-privacitat/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/ca/politica-de-cookies/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
   </url>
 
   <!-- ── ENGLISH ─────────────────────────────────────────── -->
@@ -115,50 +69,27 @@
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://motonauticamenorca.com/"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://motonauticamenorca.com/en/pilots.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://motonauticamenorca.com/en/sponsors.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
     <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/en/legal-notice/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/en/privacy-policy/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://motonauticamenorca.com/en/cookies-policy/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
   </url>
 
 </urlset>
