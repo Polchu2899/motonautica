@@ -4,10 +4,3 @@ https://motonauticamenorca.com/en/index.html https://motonauticamenorca.com/en/ 
 https://motonauticamenorca.com/ca/index.html https://motonauticamenorca.com/ca/ 301
 http://motonauticamenorca.com/* https://motonauticamenorca.com/:splat 301
 http://www.motonauticamenorca.com/* https://motonauticamenorca.com/:splat 301
-# Clean URLs sin .html
-/patrocinadores /patrocinadores.html 301
-/pilotos /pilotos.html 301
-/en/pilots /en/pilots.html 301
-/ca/pilots /ca/pilots.html 301
-/en/sponsors /en/sponsors.html 301
-/ca/patrocinadors /ca/patrocinadors.html 301
