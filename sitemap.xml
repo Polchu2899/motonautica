@@ -14,19 +14,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://motonauticamenorca.com/pilotos.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
+    <loc>https://motonauticamenorca.com/pilotos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots"/>
     <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://motonauticamenorca.com/patrocinadores.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
+    <loc>https://motonauticamenorca.com/patrocinadores</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors"/>
     <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -44,19 +44,19 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://motonauticamenorca.com/ca/pilots.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
+    <loc>https://motonauticamenorca.com/ca/pilots</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots"/>
     <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://motonauticamenorca.com/ca/patrocinadors.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
+    <loc>https://motonauticamenorca.com/ca/patrocinadors</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors"/>
     <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -74,19 +74,19 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://motonauticamenorca.com/en/pilots.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots.html"/>
+    <loc>https://motonauticamenorca.com/en/pilots</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/pilotos"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/pilots"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/pilots"/>
     <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://motonauticamenorca.com/en/sponsors.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores.html"/>
-    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors.html"/>
+    <loc>https://motonauticamenorca.com/en/sponsors</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://motonauticamenorca.com/patrocinadores"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://motonauticamenorca.com/ca/patrocinadors"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://motonauticamenorca.com/en/sponsors"/>
     <lastmod>2026-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
